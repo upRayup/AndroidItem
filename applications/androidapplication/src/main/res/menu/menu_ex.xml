@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/main_menu_0"
+        android:icon="@drawable/pic0"
+        android:title=" 打印 "
+        app:showAsAction="always|withText"
+        />
+    <item android:id="@+id/main_menu_1"
+        android:icon="@drawable/pic1"
+        android:title=" 新建 "
+        app:showAsAction="always|withText"
+        />
+    <item android:id="@+id/main_menu_2"
+        android:icon="@drawable/pic2"
+        android:title=" 邮件 "
+        app:showAsAction="always|withText"
+        />
+    <item android:id="@+id/main_menu_3"
+        android:icon="@drawable/pic3"
+        android:title=" 设置 "
+        app:showAsAction="always|withText"
+        />
+    <item android:id="@+id/main_menu_4"
+        android:icon="@drawable/pic4"
+        android:title=" 订阅 "
+        app:showAsAction="always|withText"
+        />
+</menu>

@@ -1,0 +1,2 @@
+include ':app', ':login', ':playmouse', ':setting', ':time', ':androidapplication', ':intentexample', ':myhorizontalscrollviewapp', ':myimageswitcherapp', ':mywebviewapp', ':mydatashare', ':progressbar', ':gridviewpractice', ':altertdialogtest', ':activitytest', ':activitydataback', ':activitylife', ':beiwanglu', ':memotest', ':resource1', ':menu', ':tuozhanmenu'
+rootProject.name='rabbit and grass'

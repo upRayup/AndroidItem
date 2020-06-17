@@ -1,0 +1,2 @@
+include ':app', ':meida', ':mp', ':star', ':music', ':myvideoplayer'
+rootProject.name='homework_Practicing'

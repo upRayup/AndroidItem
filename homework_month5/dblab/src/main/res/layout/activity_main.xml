@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.06">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnflaginfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="便签信息"
+                android:textSize="20dp"
+                android:textColor="#8C6931"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加便签"
+                android:id="@+id/btninsertinfo"
+                android:layout_toRightOf="@+id/btnflaginfo"
+                android:textSize="20dp"
+                android:textColor="#8C6931"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

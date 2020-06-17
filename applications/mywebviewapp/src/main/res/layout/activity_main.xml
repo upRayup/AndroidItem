@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zqu.cs.mywebviewapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <WebView
+        android:layout_width="265dp"
+        android:layout_height="52dp"
+        android:id="@+id/webImg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/webText"
+        android:layout_alignBottom="@+id/webImg"
+        android:layout_toRightOf="@+id/webImg"
+        android:layout_toEndOf="@+id/webImg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图书查询功能"
+        android:id="@+id/textTitle"
+        android:layout_below="@+id/webImg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_text_size_large_material" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询图书名："
+        android:id="@+id/textView"
+        android:layout_below="@+id/textTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editBook"
+        android:layout_below="@+id/textTitle"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:text="MySQL实用教程" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:id="@+id/buttonOk"
+        android:layout_alignBottom="@+id/editBook"
+        android:layout_toRightOf="@+id/editBook"
+        android:layout_toEndOf="@+id/editBook"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:onClick="onOkClick" />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webClient"
+        android:layout_below="@+id/editBook"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

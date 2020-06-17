@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intentexample</string>
+    <string name="title_activity_activity1">activity1</string>
+    <string name="title_activity_subactivity2">subactivity2</string>
+</resources>

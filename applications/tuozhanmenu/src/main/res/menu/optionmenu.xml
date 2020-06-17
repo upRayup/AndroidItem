@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:alphabeticShortcut="g"
+        android:title="更换颜色">
+        <menu>
+            <group android:id="@+id/setting" android:checkableBehavior="all">
+                <item android:id="@+id/color1" android:title="红色"></item>
+                <item android:id="@+id/color2" android:title="绿色"></item>
+                <item android:id="@+id/color3" android:title="蓝色"></item>
+                <item android:id="@+id/color4" android:title="橙色"></item>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:alphabeticShortcut="e"
+        android:title="恢复默认">
+    </item>
+    <item android:id="@+id/item3"
+        android:title="其他颜色"
+        android:alphabeticShortcut="r">
+        <menu>
+            <group android:id="@+id/setting2" android:checkableBehavior="all">
+                <item android:id="@+id/other1" android:title="橄榄色"></item>
+                <item android:id="@+id/other2" android:title="水绿色"></item>
+            </group>
+        </menu>
+    </item>
+</menu>

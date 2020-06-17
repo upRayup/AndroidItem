@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">resource1</string>
+    <string name="str_button">更换图片</string>
+    <string name="str_text">res/drawable/img01.jpg</string>
+</resources>
